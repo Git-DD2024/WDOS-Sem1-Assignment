@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: teal;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    font-size: 20px;
+} 
+.navbar ul, li {
+    display: flex;
+    justify-content: center;
+} 
+.navbar li {
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 145px;
+
+}
+.navbar ul {
+    margin-right: 30px;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+
+/* Introduction of Dept-wildlife-conservation */
+.intro-dept {
+    text-align: center;
+    line-height: 1.5;
+}
+.intro-para {
+    margin: 100px;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.intro-para ul, h3 {
+    text-align: left;
+}
+.intro-image {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.intro-img1 {
+    width: 800px;
+    height: 500px;
+    margin-left: 20px;
+}
+.intro-heading {
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+
+/* Protected Area */
+.protected-area-intro {
+    text-align: center;
+    line-height: 1.5;
+}
+.protected-area-intro h2 {
+    font-size: 30px;
+    margin-top: 0;
+}
+.protected-area-intro p {
+    font-size: 18px;
+    margin: 50px;
+}
+
+/* Protected Areas Location */
+.protected-area-loc {
+    display: flex;
+}
+.protected-area-loc ul, p {
+    font-size: 18px;
+}
+.protected-area-loc h2 {
+    font-size: 22px;
+    margin-left: 100px;
+}
+.protected-area-loc li {
+    padding-bottom: 20px;
+}
+
+/* Location 1 - Udawalawe National Park */
+
+.protected-area-loc1 img {
+    width: 400px;
+    height:300px;
+    margin-left: 30px;
+}
+.protected-area-loc1 h3, p {
+    margin-left: 30px;
+}
+
+/* Location 2 - Minneriya National Park */
+.protected-area-loc2 img {
+    width: 400px;
+    height:300px;
+    margin-left: 50px;
+}
+.protected-area-loc2 h3, p {
+    margin-left: 30px;
+}
+.protected-area-loc2 p {
+    margin-right: 10px;
+}
+
+/* Location 3 - Bundala National Park */
+.protected-area-loc3 img {
+    width: 400px;
+    height:300px;
+    margin-left: 30px;
+}
+.protected-area-loc3 h3, p {
+    margin-left: 30px;
+}
+.protected-area-loc3 p {
+    margin-right: 8px;
+}
+
+
+/* Location */
+.location-heading {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 22px;
+}
+.location-map-facts {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.location-para {
+    margin-left: 100px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.location-image img {
+    width: 700px; 
+    height: 450px;
+}
+
+
+/* Footer */
+footer {
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 100px;
+}

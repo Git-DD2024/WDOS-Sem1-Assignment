@@ -1,0 +1,29 @@
+.newsletter {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+.newsletter h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+
+  }
+  
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+  }
+  
+.newsletter button {
+    padding: 10px 30px;
+    background-color: red;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+.newsletter button:hover {
+    background-color: red;
+  }
+  

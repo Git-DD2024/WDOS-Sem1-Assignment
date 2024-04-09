@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+   <div id="loginpage">
+        <h2>SIGN IN</h2>
+        <label for="username">UserName : </label>
+        <input type="textbox" id="UserTxt"> <br><br>
+        <label for="password">Password : </label>
+        <input type="password" id="Password">
+        <span class="password-toggle" onclick="togglePasswordVisibility()">
+            <img src="eye-icon.jpg" alt="Toggle Password Visibility" style="width: 20px; height: auto;">
+        </span>
+        <br><br>
+        <button id="SubBtn">Log In</button>
+   </div>
+   <style>
+     body{
+        font-family:'Times New Roman', Times, serif;
+        background-image: url("Background-Image.jpg");
+     }
+      #loginpage h2{
+        font-size: 50px;
+     }
+     #loginpage label, input[type="textbox"], button{
+        font-size: 20px;
+     }
+     #loginpage input[type="password"]{
+        width: 210px;
+        height: 23px;
+     }
+     #loginpage{
+        text-align: center;
+        border: 2px solid ;
+        width: 500px;
+        height : 320px;
+        margin-left: 35%;
+        margin-top: 15%;
+        box-shadow: -5px 5px 15px 5px;
+        background-image: url(images.jpg);
+        color: black solid;
+     }
+     #loginpage button{
+        width: 100px;
+        height: 40px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        cursor: pointer;
+     }
+     
+
+   </style>
+    
+   <script src="LoginPage.js"></script> 
+</body>
+</html>

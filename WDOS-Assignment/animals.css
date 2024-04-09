@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: teal;
+    line-height: 1.5;
+}
+
+
+/* Header - NavBar */
+.navbar {
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+} 
+.navbar ul, li {
+    display: flex;
+    justify-content: center;
+} 
+.navbar li {
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 145px;
+
+}
+.navbar ul {
+    margin-right: 30px;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+
+/* Intro - Animals */
+.intro-image img {
+    width: 95%;
+    margin-left: 40px;
+    margin-right: 50px;
+    position: relative;
+}
+.intro-heading {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    color: white;
+    line-height: 0;
+}
+.intro-heading h1 {
+    font-size: 170px;
+}
+.intro-heading p {
+    font-size: 90px;
+}
+
+
+/* Overview */
+.overview-container {
+   margin-top: 100px;
+}
+.overview-para {
+    font-size: 18px;
+    margin: 100px;
+
+    
+}
+.overview-heading {
+    font-size: 25px;
+    text-align: center;
+    
+}
+.overview-para li {
+    display: block;
+}
+.overview-list-container {
+    display: flex;
+    justify-content: space-between;
+}
+.list-image img {
+    width: 700px;
+    margin-top: 10px;
+}
+
+
+/* National Park Links */
+.park-links-heading {
+    text-align: center;
+}
+.park-links-heading p {
+    font-size: 18px;
+    margin: 50px;
+}
+.park-links-heading h2 {
+    font-size: 30px;
+}
+.national-park-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    position: relative;
+}
+.first-link img {
+    position: relative;
+    width: 520px;
+    border: 2px solid black;
+    border-width: 5px;
+}
+.first-link a {
+   text-decoration: solid 10px;
+   position: absolute;
+   top: 45%;
+   left: 20%;
+   color: white;
+   font-size: 40px;
+   font-weight: bolder;
+}
+.first-link a:hover {
+    color: green;
+    cursor: pointer;
+}
+.second-link img {
+    width: 540px;
+    height: 350px;
+    border: 2px solid black;
+    border-width: 5px;
+}
+.second-link a {
+   text-decoration: 5px solid;
+   position: absolute;
+   top: 45%;
+   left: 60%;
+   color: white;
+   font-size: 40px; 
+   font-weight: bolder;
+}
+.second-link a:hover {
+    color: green;
+    cursor: pointer;
+}
+
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    margin-top: 100px;
+}
+
+
+
+

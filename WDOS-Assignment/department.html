@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife-Department</title>
+    <link rel="stylesheet" href="department.css">
+    <link rel="stylesheet" href="Editor.css">
+    <link rel="stylesheet" href="NewsLetter.css">
+</head>
+<body>
+     <!--Navigation Bar-->
+     <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Introduction.html">Introduction</a></li>
+                <li><a href="Department.html">Department of Wildlife Conservation</a></li>
+                <li><a href="leopard.html">Sri Lankan Leopard</a></li>
+                <li><a href="animals.html">Animals</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       <section class="intro-dept">
+             <div class="intro-heading">
+                <h1>Sri Lankan Department of Wildlife Conservation</h1>
+             </div>
+             <div class="intro-image">
+                 <img class="intro-img1" src="Dept images/intro-image.jpg">
+                 <img class="intro-img2" src="Dept images/intro-logo.jpeg">
+             </div>
+             <div class="intro-para">
+                <p>The Department of Wildlife Conservation in Sri Lanka is a dedicated government institution committed to the preservation and protection of the country's rich biodiversity. Established to manage and oversee wildlife habitats, the department plays a vital role in conservation efforts, focusing on endangered species and natural ecosystems. Through research, community engagement, and collaborative initiatives, the department strives to strike a balance between wildlife conservation and human coexistence. Rangers and staff work tirelessly to enforce conservation laws, ensuring the sustainable future of Sri Lanka's diverse flora and fauna.</p>
+
+            </div>
+       </section>
+
+       <section>
+          <div class="protected-area-intro">
+             <div class="protected-area-heading">
+                <h2>Protected Areas</h2>
+             </div>
+             <div class="protected-area-para">
+                <p>Experience the natural wonders of Sri Lanka through its meticulously preserved protected areas. These diverse ecosystems, including lush rainforests, expansive plains, and wetlands, serve as sanctuaries for a myriad of plant and animal species. The Department of Wildlife Conservation is dedicated to ensuring the sustainable management and conservation of these areas, fostering a harmonious balance between nature and human activities.</p>             
+             </div>
+          </div>
+          <div class="protected-area-loc">
+                <div class="protected-area-loc1">
+                    <h2>1. Udawalawe National Park</h2>
+                    <img src="Dept images/udawalawe.jpg">
+                    <p>Udawalawe National Park is home to a thriving Asian elephant population, showcasing the Department of Wildlife Conservation's commitment to wildlife protection.</p>                      
+                    
+                    <h3>Conservation Efforts at Udawalawe National Park</h3>
+                    <ul>
+                        <li>Initiatives for Asian elephant conservation, with a focus on habitat preservation.</li>
+                        <li>Programs addressing human-wildlife conflicts in the surrounding areas.</li>
+                        <li>Community engagement projects promoting responsible tourism and wildlife protection awareness.</li>
+                    </ul>
+                </div>
+                   
+                   <div class="protected-area-loc2">
+                                <h2>2. Minneriya National Park</h2>
+                                <img src="Dept images/minneriya.jpg">
+                                <p>Famous for the annual Gathering of Elephants, Minneriya National Park is a key focus for the Department of Wildlife Conservation, ensuring the protection of its unique ecosystems and charismatic wildlife.</p>
+                            <h3>Conservation Efforts at Minneriya National Park</h3>
+                            <ul>
+                                <li>Preservation of the Minneriya Tank and its surroundings to sustain the annual Gathering of Elephants.</li>
+                                <li>Conservation of wetland areas to support diverse bird species and maintain the park's ecological balance.</li>
+                                <li>Community involvement in wildlife monitoring and protection efforts, fostering a sense of shared responsibility.</li>
+                           </ul>
+                   </div>
+                  
+                   <div class="protected-area-loc3">
+                    <h2>3. Bundala National Park</h2>
+                    <img src="Dept images/bundala.jpg">
+                    <p>As a Ramsar Wetland site and a haven for migratory birds, Bundala National Park receives special attention from the Department of Wildlife Conservation to maintain its ecological significance.</p>
+                    
+                     <h3>Conservation Efforts at Bundala National Park</h3>
+                    <ul>
+                      <li>Management of wetland ecosystems to support migratory bird populations and maintain Ramsar Wetland site status.</li>
+                      <li>Protection measures for marine turtle nesting sites, including monitoring and habitat conservation initiatives.</li>
+                      <li>Community outreach programs to raise awareness about the park's ecological importance and the need for conservation.</li>
+                    </ul>
+                  </div>
+          </div>
+       </section>
+
+       <section>
+                 <div class="location-heading">
+                        <h1>Location of The Department of Wildlife Conservation</h1>
+                 </div>
+                 <div class="location-map-facts">
+                     <div class="location-map">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59822.872345210424!2d79.91822909252384!3d6.918522526545468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1704634400396!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                          </iframe>
+                     </div>
+                      
+                           <div class="location-image">
+                                <img src="Dept images/location-dept.jpg">
+                           </div>
+                    </div>
+       
+             </section>
+
+             <footer>
+                <p>&copy; 2023 Wildlife in Sri Lanka. All rights reserved.</p>
+                <p>Contact us: info@wildlifesrilanka.com</p>
+               
+                <button id="editBtn">Edit Content</button>
+                <div id="editorPopup">
+                    <textarea id="contentEditor" rows="10" cols="50"></textarea>
+                    <button id="saveBtn">Save Changes</button><br>
+                    <button id="exitBtn">Exit</button>
+               </div>
+               <div class="newsletter">
+                <h2>Subscribe to our Newsletter</h2>
+                <form id="newsletterForm">
+                  <input type="email" id="emailInput" placeholder="Your email" required>
+                  <button type="submit">Subscribe</button>
+                </form>
+              </div>
+            </footer>
+     
+               <script src="Content-Editor.js"></script>
+               <script src="NewsLetter.js"></script>
+   </main>
+</body>
+</html>

@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: teal;
+    line-height: 1.5;
+}
+
+
+/* Navbar styling */
+header {
+    background-color: black;
+    color: white;
+}
+nav {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 40px;
+    justify-content: center;
+}
+nav li {
+    padding-left: 150px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+
+/* Introduction page styling */
+.intro {
+    text-align: center;
+}
+.wild-loc-image img {
+    width: 80%;
+    max-height: 500px;
+    margin-top: 50px;
+}
+.wild-loc-heading {
+    margin-top: 50px;
+    font-size: 22px;
+}
+.wild-loc-para {
+    margin: 50px;
+    font-size: 18px;
+
+}
+
+
+/* Location 1 - Singharaja */
+.location1 {
+    text-align: center;
+}
+.location1-image-map {
+    display: flex;
+    justify-content: space-around;  
+    margin-top: 50px;
+}
+.location1-image-map img, iframe {
+    width: 700px;
+    height: 400px;
+}
+.location1-heading {
+    margin-top: 50px;
+    font-size: 20px;
+}
+.location1-para {
+    font-size: 18px;
+    margin: 50px;
+}
+
+
+/* Location 2 - Knuckles Mountain Range */
+.location2 {
+    text-align: center;
+}
+.location2-image-map {
+    display: flex;
+    justify-content: space-around;  
+    margin-top: 50px;
+}
+.location2-image-map img, iframe {
+    width: 700px;
+    height: 400px;
+}
+.location2-heading {
+    margin-top: 50px;
+    font-size: 20px;
+}
+.location2-para {
+    font-size: 18px;
+    margin: 50px;
+}
+
+
+/* Location 3 - Horton Plains National Park */
+.location3 {
+    text-align: center;
+}
+.location3-image-map {
+    display: flex;
+    justify-content: space-around;  
+    margin-top: 50px;
+}
+.location3-image-map img, iframe {
+    width: 700px;
+    height: 400px;
+}
+.location3-heading {
+    margin-top: 50px;
+    font-size: 20px;
+}
+.location3-para {
+    font-size: 18px;
+    margin: 50px;
+}
+
+
+/* Table Styling */
+table {
+    border-style: solid;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+}
+th, tfoot td {
+    background-color: white;
+    font-weight: bold;
+}
+td {
+    background-color: rgb(0,139,139);
+    font-size: 18px;
+}
+thead {
+    font-size: 19px;
+}
+td, th {
+    border: 2px solid black;
+    padding: 8px;
+}
+table img {
+    width: 80%;
+    height: auto;
+    max-height: 150px;
+    display: block;
+    margin: auto;
+}
+.table-heading {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 100px;
+    margin-top: 50px;
+}
